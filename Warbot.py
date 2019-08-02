@@ -4,7 +4,7 @@ import time
 
 #----------------------------------------------------------
 
-fichero_luch=open("Luchadores-ellos.txt","r")
+fichero_luch=open("Characthers.txt","r")
 
 luchadores=fichero_luch.readlines()
 
@@ -15,7 +15,7 @@ for i in range(len(luchadores)):
 
 #----------------------------------------------------------
 
-fichero_muert=open("Muertes.txt","r")
+fichero_muert=open("Deaths.txt","r")
 
 muertes=fichero_muert.readlines()
 

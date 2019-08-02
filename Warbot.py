@@ -25,7 +25,7 @@ for i in range(len(muertes)):
     if i!="":
         muertes[i]=muertes[i].rstrip("\n")
 
-print(muertes)
+# print(muertes)
 #----------------------------------------------------
 
 vivos=[]
@@ -37,12 +37,12 @@ for n in luchadores:
     # print(n+" añadido a la guerra")
     # print(str(len(vivos))+" participantes")
 
-print (luchadores)
-print (vivos)
+# print (luchadores)
+# print (vivos)
 
 muertos=[]
 
-input("-------------Pulsa intro para comenzar-----------------")
+input("-------------Press enter to start-----------------")
 
 while 1 < len(vivos):
 
@@ -66,8 +66,8 @@ while 1 < len(vivos):
 
     # print(asesino+" "+muerte+" "+cuerpo+"\n\n")
     print(muerte.format(killer=asesino,dead=cuerpo))
-    print("Quedan "+str(len(vivos))+" vivos")
+    print(str(len(vivos))+" left alive")
     # time.sleep(3)
 
-print("\n¡"+vivos[0]+" ha ganado!")
+print("\n¡"+vivos[0]+" has won!")
 

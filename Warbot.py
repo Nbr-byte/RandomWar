@@ -65,7 +65,7 @@ while 1 < len(vivos):
     muertos.append(cuerpo)
 
     # print(asesino+" "+muerte+" "+cuerpo+"\n\n")
-    print(muerte.format(asesino,cuerpo))
+    print(muerte.format(killer=asesino,dead=cuerpo))
     print("Quedan "+str(len(vivos))+" vivos")
     # time.sleep(3)
 
